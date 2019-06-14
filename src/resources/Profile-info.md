@@ -1,0 +1,3 @@
+I live in Vineyard, the west side of Orem just minutes from UVU and for the past 30 years I have cared for children in my home providing a clean, safe and loving environment. I provide meals, snacks and wipes as well as a wide variety of age appropriate toys and activities and kid friendly indoor and outdoor play spaces.
+I have flexible hours and reasonable DAILY rates..Pay only for days in attendance, No long term contracts. Immunized children only please.
+Money transfer app or cash payments only. References available. (care.com profile)

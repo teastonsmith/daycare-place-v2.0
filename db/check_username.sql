@@ -1,2 +1,2 @@
-SELECT * FROM user_login
+SELECT * FROM user_logins
 WHERE username = ${username};
