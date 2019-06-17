@@ -29,8 +29,11 @@ const Home = () => {
 				</div>
 				<div className='home-content' id='about'>
 					<Link to='/about'>About</Link>
+				
 				</div>
+				<div className='home-content'>
 				<TestimonialDisplay />
+				</div>
 			</div>
 		</div>
 	);

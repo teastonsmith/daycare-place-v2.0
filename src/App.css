@@ -128,57 +128,55 @@ table {
 	border-spacing: 0;
 }
 
-
 /* --- */
 
 * {
-  background: gray;
-  height: 100%;
-  width: 100%;
-  font-size: 16px;
-  font-family: 'Open Sans', sans-serif;
-  line-height: 22px;
-  font-weight: 400;
-  color: black;
+	background: gray;
+	height: 100%;
+	width: 100%;
+	font-size: 15px;
+	font-family: 'Open Sans', sans-serif;
+	line-height: 22px;
+	font-weight: 400;
+	color: black;
 }
 
 .Navbar {
-  background: #800080;
-  width: 100%;
-  height: 400px;
-  border: 10px solid black;
+	background: #800080;
+	width: 100%;
+	height: 400px;
+	border: 10px solid black;
 }
 
 .Navbar #logo {
-  border: 10px solid black;
-
+	border: 10px solid black;
 }
 
 .Navbar #menubutton {
-  border: 10px solid black;
-
+	border: 10px solid black;
 }
 
 .Carousel {
-  border: 10px solid black;
-
+	border: 10px solid green;
+	height: 200px;
+	width: 100%;
 }
 
 .home-body {
-border: 5px solid blue;
-height: 100px;
-width: 100%;
-display: flex;
-flex-direction: column;
+	border: 5px solid blue;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-content: center;
+	align-items: center;
 }
 
 .Footer {
-  background: #ffdc00;
-  height: 300px;
-  width: 100%;
-  position: absolute;
-  bottom: 0;
-  border: 10px solid black;
+	background: #ffdc00;
+	height: 300px;
+	width: 100%;
+	border: 10px solid black;
 }
 
 .calendar {
@@ -190,7 +188,6 @@ flex-direction: column;
 }
 
 .About {
-
 }
 
 .Menu {
@@ -202,30 +199,42 @@ flex-direction: column;
 }
 
 .Stock {
-height: 400px;
-width: 100%
+	height: 400px;
+	width: 100%;
 }
 
 #title {
-  font-family: 'Concert One', cursive;
-  font-weight: 400;
-  font-size: 28px;
-  line-height: 34px
+	font-family: 'Concert One', cursive;
+	font-weight: 400;
+	font-size: 28px;
+	line-height: 34px;
 }
 
 .button {
-  background: white
+	background: white;
 }
 
 .link {
-  background: white
+	background: white;
 }
 
 .home-content {
-  display: flex;
-  border: 5px solid red;
-  height: 50px;
-  width: 50px;
+	display: flex;
+	border: 5px solid red;
+	height: 50px;
+	width: 60%;
+}
+
+.home-content #intro {
+	height: 100px;
+}
+
+p {
+	height: 0;
+}
+
+h1 {
+	height: 0;
 }
 
 /* Color Scheme:
