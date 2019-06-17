@@ -10,13 +10,11 @@ const Home = () => {
 	return (
 		<div className='Home'>
 			<Carousel />
-			<div className='home-body'>
+			<div className='body'>
 				<div className='content-div'>
 					Intro
 				</div>
 					<Link className='content-div' to='/gallery'>
-				{/* <div className='content-div' id='gallery'></div> */}
-
 					</Link>
 				<div className='content-div' id='blog'>
 					<Link to='/blog'>Blog</Link>
