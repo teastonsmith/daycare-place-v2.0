@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function CalendarDisplay() {
   return (
-    <div>
+    <div className='Calendar'>
       <p>Calendar Display</p>
     </div>
   )

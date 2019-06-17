@@ -11,28 +11,29 @@ const Home = () => {
 		<div className='Home'>
 			<Carousel />
 			<div className='home-body'>
-				<div className='home-content' id='intro'>
+				<div className='content-div'>
 					Intro
 					<Link to='/'>Home</Link>
 				</div>
-				<div className='home-content' id='gallery'>
+				<div className='content-div' id='gallery'>
 					<Link to='/gallery'>Gallery</Link>
 				</div>
-				<div className='home-content' id='blog'>
+				<div className='content-div' id='blog'>
 					<Link to='/blog'>Blog</Link>
 				</div>
-				<div className='home-content' id='calendar'>
+				<div className='content-div' id='calendar'>
 					<Link to='/calendar'>Calendar</Link>
 				</div>
-				<div className='home-content' id='contact'>
+				<div className='content-div' id='contact'>
 					<Link to='/contact'>Contact</Link>
 				</div>
-				<div className='home-content' id='about'>
+				<div className='content-div' id='about'>
 					<Link to='/about'>About</Link>
 				
 				</div>
-				<div className='home-content'>
-				<TestimonialDisplay />
+
+				<div className='content-div'>
+					<TestimonialDisplay />
 				</div>
 			</div>
 		</div>
