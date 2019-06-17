@@ -24,6 +24,8 @@ class Login extends Component {
 	}
 }
 
+// conditionally render register / login forms
+
 function mapStateToProps(reduxState) {
 	return reduxState;
 }

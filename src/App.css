@@ -264,6 +264,14 @@ h1 {
 button {
 	width: 100px
 }
+
+.Logo {
+	height: 188px;
+	width: 188px;
+	background-image: url('./resources/images/logo1.png');
+	background-repeat: no-repeat;
+}
+
 /* Color Scheme:
 
 RED - #FF4136

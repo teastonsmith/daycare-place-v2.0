@@ -13,11 +13,11 @@ const Home = () => {
 			<div className='home-body'>
 				<div className='content-div'>
 					Intro
-					<Link to='/'>Home</Link>
 				</div>
-				<div className='content-div' id='gallery'>
-					<Link to='/gallery'>Gallery</Link>
-				</div>
+					<Link className='content-div' to='/gallery'>
+				{/* <div className='content-div' id='gallery'></div> */}
+
+					</Link>
 				<div className='content-div' id='blog'>
 					<Link to='/blog'>Blog</Link>
 				</div>
