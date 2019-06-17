@@ -1,25 +1,184 @@
-.App {
-	background: #008080;
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol,
+ul {
+	list-style: none;
+}
+blockquote,
+q {
+	quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/* --- */
+
+* {
+  background: gray;
+  height: 100%;
+  width: 100%;
+  font-size: 16px;
+  font-family: 'Open Sans', sans-serif;
+  line-height: 22px;
+  font-weight: 400;
+  color: black;
 }
 
 .Navbar {
-	background: #800080;
+  background: #800080;
+  width: 100%;
+  height: 400px;
+  border: 10px solid black;
 }
 
 .Navbar #logo {
+  border: 10px solid black;
+
 }
 
 .Navbar #menubutton {
+  border: 10px solid black;
+
 }
 
 .Carousel {
+  border: 10px solid black;
+
 }
 
-.Home {
+.home-body {
+border: 5px solid blue;
+height: 100px;
+width: 100%;
+display: flex;
+flex-direction: column;
 }
 
 .Footer {
-	background: #ffdc00;
+  background: #ffdc00;
+  height: 300px;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  border: 10px solid black;
 }
 
 .calendar {
@@ -31,6 +190,7 @@
 }
 
 .About {
+
 }
 
 .Menu {
@@ -42,6 +202,30 @@
 }
 
 .Stock {
+height: 400px;
+width: 100%
+}
+
+#title {
+  font-family: 'Concert One', cursive;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 34px
+}
+
+.button {
+  background: white
+}
+
+.link {
+  background: white
+}
+
+.home-content {
+  display: flex;
+  border: 5px solid red;
+  height: 50px;
+  width: 50px;
 }
 
 /* Color Scheme:
@@ -53,3 +237,7 @@ GREEN - #2ECC40
 ORANGE - #FF851B
 TEAL - #008080
 PURPLE - 	#800080 */
+
+/* fonts:
+titles - vagrounded_btregular, normal, weight: 400, size 28px, line-height 35px, 
+body - open_sansregular, normal, wieght: 400, size: 16px, line-height: 22px */

@@ -1,6 +1,5 @@
 import React from 'react';
 import router from './router';
-import './Reset.css';
 import './App.css';
 import { HashRouter } from 'react-router-dom';
 import { connect } from 'react-redux';

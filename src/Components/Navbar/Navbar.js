@@ -5,7 +5,7 @@ import { connect } from 'react-redux';
 
 const Navbar = ({ username }) => {
 	return (
-		<nav>
+		<nav className='Navbar'>
 			<Link to='/'>Home</Link>
 			<Link to='/login'>Login</Link>
 			<span>{username && username}</span>
