@@ -29,7 +29,6 @@ const Home = () => {
 				</div>
 				<div className='content-div' id='about'>
 					<Link to='/about'>About</Link>
-				
 				</div>
 
 				<div className='content-div'>

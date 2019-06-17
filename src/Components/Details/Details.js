@@ -23,7 +23,7 @@ class Details extends Component {
 	};
 	render() {
 		return (
-			<div>
+			<div className='Details'>
 				<p>Details</p>
 				{this.props.firstname && (
 					<>
