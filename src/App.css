@@ -1,0 +1,55 @@
+.App {
+	background: #008080;
+}
+
+.Navbar {
+	background: #800080;
+}
+
+.Navbar #logo {
+}
+
+.Navbar #menubutton {
+}
+
+.Carousel {
+}
+
+.Home {
+}
+
+.Footer {
+	background: #ffdc00;
+}
+
+.calendar {
+	background: white;
+}
+
+.blog-post {
+	background: #0074d9;
+}
+
+.About {
+}
+
+.Menu {
+	background: #ff851b;
+}
+
+.content-div {
+	background: white;
+}
+
+.Stock {
+}
+
+/* Color Scheme:
+
+RED - #FF4136
+YELLOW - #FFDC00
+BLUE - #0074D9
+GREEN - #2ECC40
+ORANGE - #FF851B
+TEAL - #008080
+PURPLE - 	#800080 */

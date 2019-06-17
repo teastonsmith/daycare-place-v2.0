@@ -4,12 +4,15 @@ import './Reset.css';
 import './App.css';
 import { HashRouter } from 'react-router-dom';
 import { connect } from 'react-redux';
+
 import Navbar from './Components/Navbar/Navbar';
+import Footer from './Components/Footer/Footer'
 
 const App = () => (
 	<HashRouter>
 		<Navbar />
 		{router}
+		<Footer/>
 	</HashRouter>
 );
 
