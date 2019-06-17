@@ -7,7 +7,7 @@ const Navbar = ({ username }) => {
 	return (
 		<nav className='Navbar'>
 			<Link to='/'>Home</Link>
-			<button>
+			<button type="button" class="btn btn-outline-light">
 			<Link to='/login'>Login</Link>
 			</button>
 			<span>{username && username}</span>

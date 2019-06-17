@@ -260,6 +260,10 @@ h1 {
 	width: 100%;
 	border: 10px solid black;
 }
+
+button {
+	width: 100px
+}
 /* Color Scheme:
 
 RED - #FF4136
