@@ -16,9 +16,14 @@ class Login extends Component {
 	}
 	render() {
 		return (
-			<div className='body'>
-				<RegisterForm />
-				<LoginForm />
+			<div className='body' id='component-body'>
+				<div className='register-form-body'>
+					<RegisterForm />
+				</div>
+<br/>
+				<div className='login-form-body'>
+					<LoginForm />
+				</div>
 			</div>
 		);
 	}

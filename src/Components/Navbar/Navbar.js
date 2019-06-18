@@ -10,8 +10,8 @@ const Navbar = ({ username }) => {
 		<div>
 			<nav className='Navbar'>
 			<Logo />
-				<Link to='/'>Home</Link>
-				<button type='button' class='btn btn-light'>
+				<Link to='/' id='navbar-home-link'>Home</Link>
+				<button type='button' class='btn btn-light' id='navbar-login-button'>
 					<Link to='/login'>Login</Link>
 				</button>
 				<span>{username && username}</span>

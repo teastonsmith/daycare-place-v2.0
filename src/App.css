@@ -139,6 +139,11 @@ table {
 	font-weight: 400;
 }
 
+html, body {
+	margin: 0;
+	height: 100%
+}
+
 .App {
 	position: relative;
 	min-height: 100vh;
@@ -150,7 +155,7 @@ table {
 	background-size: cover;
 	width: 100%;
 	height: 400px;
-	padding-top: 40px
+	padding-top: 40px;
 
 }
 
@@ -160,10 +165,16 @@ table {
 .Navbar #menubutton {
 }
 
+#navbar-home-link {
+	padding: 100px;
+	color: white
+}
+
 .Carousel {
 	background-color: green;
 	height: 200px;
 	width: 100%;
+	background-image: url('./resources//images/stock/drawing.jpeg')
 }
 
 .body {
@@ -174,7 +185,12 @@ table {
 	justify-content: center;
 	align-content: center;
 	align-items: center;
-	padding-bottom: 2.5rem;
+	padding: 50px 0;
+	/* height: 60vh */
+}
+
+#component-body {
+	height: 60vh
 }
 
 .content-div {
@@ -209,9 +225,8 @@ table {
 	background-size: cover;
 }
 
-#home-testimonial-display {
-	background-image: url('./resources/images/stock/rainbow-slinky.jpeg');
-	background-size: cover;
+#testimonial-component {
+
 }
 
 .Gallery {
