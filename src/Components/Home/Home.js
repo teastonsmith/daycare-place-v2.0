@@ -11,26 +11,16 @@ const Home = () => {
 		<div className='Home'>
 			<Carousel />
 			<div className='body'>
-				<div className='content-div'>
+				<div className='content-div' id='home-intro'>
 					Intro
 				</div>
-					<Link className='content-div' to='/gallery'>
-					</Link>
-				<div className='content-div' id='blog'>
-					<Link to='/blog'>Blog</Link>
-				</div>
-				<div className='content-div' id='calendar'>
-					<Link to='/calendar'>Calendar</Link>
-				</div>
-				<div className='content-div' id='contact'>
-					<Link to='/contact'>Contact</Link>
-				</div>
-				<div className='content-div' id='about'>
-					<Link to='/about'>About</Link>
-				</div>
-
+					<Link to='/gallery' className='content-div' id='home-gallery'/>
+					<Link to='/blog' className='content-div' id='home-blog'/>
+					<Link to='/calendar' className='content-div' id='home-calendar'/>
+					<Link to='/contact' className='content-div' id='home-contact'/>
+					<Link to='/about' className='content-div' id='home-about'/>
 				<div className='content-div'>
-					<TestimonialDisplay />
+					<TestimonialDisplay className='content-div' id='home-testimonial-display'/>
 				</div>
 			</div>
 		</div>
