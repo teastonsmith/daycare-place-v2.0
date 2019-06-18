@@ -17,6 +17,7 @@ app.use(
 		},
 	}),
 );
+app.use(express.static(`${__dirname}/../build`));
 
 massive(CONNECTION_STRING).then(database => {
 	app.set('db', database);
